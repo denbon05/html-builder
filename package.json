@@ -1,0 +1,42 @@
+{
+  "name": "html-builder",
+  "version": "1.0.0",
+  "description": "html builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "build": "babel . -d lib"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denbon05/html-builder.git"
+  },
+  "keywords": [
+    "html",
+    "builder",
+    "parse"
+  ],
+  "author": "den",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denbon05/html-builder/issues"
+  },
+  "homepage": "https://github.com/denbon05/html-builder#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
